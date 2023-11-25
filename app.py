@@ -126,7 +126,7 @@ def send_mails(detections, email_receiver):
     server.login(email_sender, email_password)
     server.sendmail(email_sender,email_receiver,messages)
 
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['GET'])
 def api_test():
     return jsonify({'status': 'API is active'})
 
