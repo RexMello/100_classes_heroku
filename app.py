@@ -114,7 +114,7 @@ def send_mails(detections, email_receiver):
         print('NOTHING TO EMAIL')
         return
     email_sender = 'kai.official.003@gmail.com'
-    email_password = 'tazj jnnw avfb eeif'
+    email_password = 'qinh azzb wbnd xdxd'
 
     messages = ''
     for detection in detections:
