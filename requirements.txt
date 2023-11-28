@@ -1,6 +1,6 @@
 Flask
 Flask-Cors
-opencv-python-headless
+opencv-contrib-python-headless
 pandas
 onnxruntime
 gunicorn
